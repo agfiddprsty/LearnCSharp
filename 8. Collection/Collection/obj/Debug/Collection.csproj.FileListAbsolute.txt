@@ -1,0 +1,7 @@
+D:\Kelas XI\KK3\Collection\Collection\bin\Debug\Collection.exe.config
+D:\Kelas XI\KK3\Collection\Collection\bin\Debug\Collection.exe
+D:\Kelas XI\KK3\Collection\Collection\bin\Debug\Collection.pdb
+D:\Kelas XI\KK3\Collection\Collection\obj\Debug\Collection.csprojAssemblyReference.cache
+D:\Kelas XI\KK3\Collection\Collection\obj\Debug\Collection.csproj.CoreCompileInputs.cache
+D:\Kelas XI\KK3\Collection\Collection\obj\Debug\Collection.exe
+D:\Kelas XI\KK3\Collection\Collection\obj\Debug\Collection.pdb

@@ -1,0 +1,156 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    class rumus
+    {
+        private double sisi;
+        public double getSisi()
+        {
+            return sisi;
+        }
+        public double setSisi(double nSisi)
+        {
+            sisi += nSisi;
+            return nSisi;
+        }//pp
+        private double sisip;
+        private double sisil;
+        public double getSisip()
+        {
+            return sisip;
+        }
+        public double setSisip(double nSisip)
+        {
+            sisip += nSisip;
+            return nSisip;
+        }
+        public double getSisil()
+        {
+            return sisi;
+        }
+        public double setSisil(double nSisil)
+        {
+            sisil += nSisil;
+            return nSisil;
+        }//st
+        private double sisit;
+        private double sisia;
+        private double sisim;
+        public double getSisit()
+        {
+            return sisit;
+        }
+        public double setSisit(double nSisit)
+        {
+            sisit += nSisit;
+            return nSisit;
+        }
+        public double getSisia()
+        {
+            return sisia;
+        }
+        public double setSisia(double nSisia)
+        {
+            sisia += nSisia;
+            return nSisia;
+        }
+        public double getSisim()
+        {
+            return sisim;
+        }
+        public double setSisim(double nSisim)
+        {
+            sisim += nSisim;
+            return nSisim;
+        }
+        //tp
+        private double sisitp;
+        private double tinggi;
+        private double sisitp2;
+        private double miring;
+        public double getSisitp()
+        {
+            return sisitp;
+        }
+        public double setSisitp(double nSisitp)
+        {
+            sisitp += nSisitp;
+            return nSisitp;
+        }
+        public double getTinggi()
+        {
+            return tinggi;
+        }
+        public double setTinggi(double ntinggi)
+        {
+            tinggi += ntinggi;
+            return ntinggi;
+        }
+
+        public double getSisitp2()
+        {
+            return sisitp2;
+        }
+        public double setSisitp2(double nSisitp2)
+        {
+            sisitp2 += nSisitp2;
+            return nSisitp2;
+        }
+        public double getmiring()
+        {
+            return miring;
+        }
+        public double setMiring(double nMiring)
+        {
+            miring += nMiring;
+            return nMiring;
+        }
+        private double alas;
+        private double jt;
+        public double getAlas()
+        {
+            return alas;
+        }
+        public double setAlas(double nAlas)
+        {
+            alas += nAlas;
+            return nAlas;
+        }
+        public double getJt()
+        {
+            return jt;
+        }
+        public double setJt(double nJt)
+        {
+            jt += nJt;
+            return nJt;
+
+        }
+        private double d1;
+        private double d2;
+        public double getD1()
+        {
+            return d1;
+        }
+        public double setD1(double nD1)
+        {
+            d1 += nD1;
+            return nD1;
+        }
+        public double getD2()
+        {
+            return d2;
+        }
+        public double setD2(double nD2)
+        {
+
+            d2 += nD2;
+            return nD2;
+        }
+    }
+}

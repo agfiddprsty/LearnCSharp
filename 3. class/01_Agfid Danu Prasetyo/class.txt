@@ -1,0 +1,98 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication3
+{
+    class bangundatarku
+    {
+        public double luaspers()
+        {
+            Console.Write("LUAS DAN KELILING PERSEGI\n");
+            Console.Write("Input Sisi        : ");
+            double s = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Persegi      : {0}", s * s);
+            Console.WriteLine("Keliling Persegi  : {0}", 4 * s);
+            return (s);
+        }
+        public double luaspjg()
+        {
+            Console.Write("LUAS DAN KELILING PERSEGI PANJANG\n");
+            Console.Write("Input Sisi Pendek         : ");
+            double sk = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi Panjang        : ");
+            double sj = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("================================");
+            Console.WriteLine("Luas Persegi Panjang      : {0}", sk * sj);
+            Console.WriteLine("Keliling Persegi Panjang  : {0}", 2 * (sk + sj));
+            return (sj);
+        }
+
+
+        public double luaseg()
+        {
+            Console.Write("LUAS DAN KELILING SEGITIGA\n");
+
+            Console.Write("Input Alas        : ");
+            double x = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Tinggi      : ");
+            double y = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi miring : ");
+            double m = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=======================");
+            Console.WriteLine("Luas Segitiga     : {0}", x * y / 2);
+            Console.WriteLine("Keliling Segitiga : {0}", m + m + x);
+
+            return (x);
+        }
+
+        public double luasjaj()
+        {
+            Console.WriteLine("LUAS DAN KELILING JAJARGENJANG");
+            Console.WriteLine();
+            Console.Write("Input Sisi Miring      : ");
+            double sm = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi Alas        : ");
+            double sa = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Tinggi           : ");
+            double tj = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=============================");
+            Console.WriteLine("Luas Jajargenjang      : {0}", sa * tj);
+            Console.WriteLine("Keliling Jajargenjang  : {0}", 2 * (sa + sm));
+            return (sa);
+        }
+        public double luaslay()
+        {
+            Console.WriteLine("LUAS DAN KELILING LAYANG LAYANG");
+            Console.WriteLine();
+            Console.Write("Input Diagonal 1            : ");
+            double dal = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Diagonal 2            : ");
+            double dbl = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi A                : ");
+            double sal = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Input Sisi B                : ");
+            double sbl = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("=============================");
+            Console.WriteLine("Luas Layang-Layang      : {0}", dal * dbl / 2);
+            Console.WriteLine("Keliling Layang-Layang  : {0}", 2 * (sal + sbl));
+            return (sbl);
+        }
+    }
+}

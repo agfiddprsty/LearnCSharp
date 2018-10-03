@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using bangunDatar;
+
+namespace Bangun_Datar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 hitung = new Class1();
+
+            //persegi
+            Console.Write("Sisi Persegi : ");
+            double sisi = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Luas Persegi : " + hitung.persegi(sisi));
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
+
+            //persegi panjang
+            Console.Write("Panjang Persegi Panjang  : ");
+            double panjang = Convert.ToInt64(Console.ReadLine());
+            Console.Write("Lebar Persegi Panjang    : ");
+            double lebar = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Luas Persegi panjang     : " + hitung.persegiPanjang(panjang, lebar));
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
+
+            //segitiga
+            Console.Write("Tinggi Segitiga  : ");
+            double tinggiSegitiga = Convert.ToInt64(Console.ReadLine());
+            Console.Write("Alas Segitiga    : ");
+            double alasSegitiga = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Luas Segitiga    : " + hitung.segitiga(tinggiSegitiga, alasSegitiga));
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
+
+            //jajar genjang
+            Console.Write("Tinggi Jajar Genjang     : ");
+            double tinggiJajarGenjang = Convert.ToInt64(Console.ReadLine());
+            Console.Write("Alas Jajar Genjang       : ");
+            double alasJajarGenjang = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Luas Jajar Genjang       :  " + hitung.jajarGenjang(tinggiJajarGenjang, alasJajarGenjang));
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
+
+            //trapesium
+            Console.Write("Sisi Atas Trapesium      : ");
+            double atap = Convert.ToInt64(Console.ReadLine());
+            Console.Write("Sisi Bawah Trapesium     : ");
+            double alasTrapesium = Convert.ToInt64(Console.ReadLine());
+            Console.Write("Tinggi Trapesium         : ");
+            double tinggiTrapesium = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Luas Trapesium           :  " + hitung.trapesium(tinggiTrapesium, atap, alasTrapesium));
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine();
+        }
+    }
+}

@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bangundatarku persegi = new bangundatarku();
+
+            persegi.luaspers();
+            Console.ReadLine();
+
+            Console.Clear();
+
+            bangundatarku Ppanjang = new bangundatarku();
+
+
+            Ppanjang.luaspjg();
+            Console.ReadLine();
+
+            Console.Clear();
+
+
+            bangundatarku segitiga = new bangundatarku();
+
+            segitiga.luaseg();
+            Console.ReadLine();
+
+            Console.Clear();
+
+            bangundatarku jargenjang = new bangundatarku();
+
+            segitiga.luasjaj();
+            Console.ReadLine();
+
+            Console.Clear();
+
+            bangundatarku layang = new bangundatarku();
+
+            segitiga.luaslay();
+            Console.ReadLine();
+
+            Console.Clear();
+        }
+    }
+}

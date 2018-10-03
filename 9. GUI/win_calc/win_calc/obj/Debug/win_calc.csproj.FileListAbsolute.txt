@@ -1,0 +1,20 @@
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.exe.config
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.exe
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.pdb
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csprojAssemblyReference.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.Form1.resources
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.Properties.Resources.resources
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csproj.GenerateResource.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csproj.CoreCompileInputs.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.exe
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.pdb
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.exe.config
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.exe
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.pdb
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csprojAssemblyReference.cache
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.Form1.resources
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.Properties.Resources.resources
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csproj.GenerateResource.cache
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csproj.CoreCompileInputs.cache
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.exe
+D:\KK3\01_Agfid Danu Prasetyo_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.pdb

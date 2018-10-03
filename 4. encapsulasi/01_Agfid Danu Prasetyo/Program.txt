@@ -1,0 +1,98 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //persegi
+            rumus persegi = new rumus();
+            persegi.getSisi();
+            Console.Write("Masukan sisi : ");
+            double sisi = Convert.ToInt64(Console.ReadLine());
+            double nSisi = persegi.setSisi(sisi);
+            Console.WriteLine("Luas Persegi : {0}", sisi * sisi);
+            Console.ReadLine();
+            //pp
+            rumus persegipanjang = new rumus();
+            persegipanjang.getSisip();
+            Console.WriteLine("Masukan Panjang : ");
+            double sisip = Convert.ToInt64(Console.ReadLine());
+            double nSisip = persegipanjang.setSisip(sisip);
+            Console.WriteLine("Masukan Lebar : ");
+            persegipanjang.getSisil();
+            double sisil = Convert.ToInt64(Console.ReadLine());
+            double nSisil = persegipanjang.setSisil(sisil);
+            Console.WriteLine("Luas persegi panjang {0}: ", sisip * sisil);
+            Console.WriteLine("kelling persegi panjang {0}: ", 2 * sisil + sisip);
+            Console.ReadLine();
+            //segitiga
+            rumus segitiga = new rumus();
+            segitiga.getSisit();
+            Console.WriteLine("Masukan tinggi : ");
+            double sisit = Convert.ToInt64(Console.ReadLine());
+            double nSisit = segitiga.setSisit(sisit);
+            Console.WriteLine("Masukan Alas : ");
+            segitiga.getSisia();
+            double sisia = Convert.ToInt64(Console.ReadLine());
+            double nSisia = segitiga.setSisia(sisia);
+            Console.WriteLine("masukan sisi miring : ");
+            segitiga.getSisim();
+            double sisim = Convert.ToInt64(Console.ReadLine());
+            double nSisim = segitiga.setSisim(sisim);
+            Console.WriteLine("Luas segitiga {0}: ", sisia * sisit /2);
+            Console.WriteLine("kelling segitiga {0}: ", sisim + sisia + sisit);
+            Console.ReadLine();
+            //trapesum
+            rumus trapesium = new rumus();
+            trapesium.getSisitp();
+            Console.WriteLine("Masukan sisi A : ");
+            double sisitp = Convert.ToInt64(Console.ReadLine());
+            double nSisitp = trapesium.setSisitp(sisitp);
+            Console.WriteLine("Masukan sisi B : ");
+            trapesium.getSisitp2();
+            double sisitp2 = Convert.ToInt64(Console.ReadLine());
+            double nSisitp2 = persegipanjang.setSisitp2(sisitp2);
+            Console.WriteLine("masukan sisi miring : ");
+            trapesium.getmiring();
+            double miring = Convert.ToInt64(Console.ReadLine());
+            double nMiring = persegipanjang.setMiring(miring);
+            trapesium.getTinggi();
+            double tinggi = Convert.ToInt64(Console.ReadLine());
+            double nTinggi = trapesium.setTinggi(tinggi);
+            Console.WriteLine("Luas Trapesium {0}: ", (sisitp + sisitp2) * tinggi / 2);
+            Console.WriteLine("kelling keliling trapesium {0}: ",(2* miring) + sisitp + sisitp2);
+            Console.ReadLine();
+            //jajargenjang
+            rumus jajargenjang = new rumus();
+            jajargenjang.getAlas();
+            Console.WriteLine("Masukan Alas : ");
+            double alas = Convert.ToInt64(Console.ReadLine());
+            double nAlas = jajargenjang.setAlas(alas);
+            Console.WriteLine("Masukan Tinggi : ");
+            jajargenjang.getSisil();
+            double jt = Convert.ToInt64(Console.ReadLine());
+            double nJt = jajargenjang.setJt(jt);
+            Console.WriteLine("Luas persegi panjang {0}: ", alas *jt);
+            Console.WriteLine("kelling persegi panjang {0}: ", 2 * (alas + jt));
+            Console.ReadLine();
+            //layang
+            rumus layang = new rumus();
+            layang.getD1();
+            Console.WriteLine("Masukan Diagonal 1 : ");
+            double d1 = Convert.ToInt64(Console.ReadLine());
+            double nD1 = persegipanjang.setD1(d1);
+            Console.WriteLine("Masukan Diagonal 2 : ");
+            layang.getD2();
+            double d2 = Convert.ToInt64(Console.ReadLine());
+            double nD2 = layang.setD2(d2);
+            Console.WriteLine("Luas layang - layang {0}: ", d1 * d2 / 2);
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bangunDatar
+{
+    public class Class1
+    {
+        //persegi
+        public double persegi(double sisi)
+        {
+            return sisi * sisi;
+        }
+
+        //persegi panjang
+        public double persegiPanjang(double panjang,double lebar)
+        {
+            return panjang * lebar; ;
+        }
+
+        //segitiga
+        public double segitiga(double tinggi, double alas)
+        {
+            return tinggi * alas / 2;
+        }
+
+        //jajar genjang
+        public double jajarGenjang(double tinggi, double alas)
+        {
+            return tinggi * alas;
+        }
+
+        //trapesium
+        public double trapesium(double tinggi, double atap, double alas)
+        {
+            return (atap + alas) * tinggi / 2;
+        }
+    }
+}

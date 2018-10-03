@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            hitung a = new hitung();
+            Console.Write("Program BhaswaraDS :)");
+            double A = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Masukan Angka 2:");
+            double B = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Hasil penjumlahan :"+ a.add(A, B));
+            Console.WriteLine("Hasil perkalian :"+ a.cross(A, B));
+            Console.WriteLine("Hasil pengurangan :"+ a.min(A, B));
+            Console.WriteLine("Hasil pembagian :"+ a.devide(A, B));
+            Console.ReadLine();
+        }
+    }
+}
